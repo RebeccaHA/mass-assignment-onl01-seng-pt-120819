@@ -4,5 +4,6 @@ class Person
 
   def initialize(attributes)
     arrtibutes.each{|key, values| self.send(("#{key}="), values)
-  end
+    end
+ end
 end
